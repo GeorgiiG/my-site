@@ -2,8 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style_1.css">
-    <title>Портфолио Junior верстальщика</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
 
@@ -23,23 +23,115 @@
 
     <section class="intro">
       <div class="container">
-        <h2 class="subheading">Давайте познакомимся</h2>
-        <h3>Пара слов о себе</h3>
-        <p>Текст с парой слов о себе.</p>
-        <h3>Чем могу быть полезен</h3>
-        <p>Текст о том, чем могу быть полезен.</p>
+        <h2 class="subheading">About me</h2>
+        <h3>Experience</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>Services</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="container">
+        <h3>Skills</h3>
+        <dl class="skills-list">
+          <dt class="skill-html">HTML</dt>
+          <dd class="level"><div style="width: 60%;">60%</div></dd>
+          <dt class="skill-css">CSS</dt>
+          <dd class="level"><div style="width: 40%;">40%</div></dd>
+        </dl>
       </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
-        <h2 class="subheading">Мои работы</h2>
+        <h2 class="subheading">Projects</h2>
 
         <h3>Сайт инструктора Кекса</h3>
-        <p>Небольшой лендинг о школе для начинающих.</p>
+        <p>Небольшой лендинг о школе для начинающих.</p><br><br>
 
         <h3>Блог начинающего верстальщика</h3>
-        <p>Статический блог про обучение HTML и CSS.</p>
+        <h4>Статический блог про обучение HTML и CSS.</h4>
+        <p class="paragraph-grey">Дизайнер интерфейсов Саша Окунев 
+          <a href="https://slashdesigner.ru/">slashdesigner.ru</a>отвечает на вопросы об 
+          интерактивном дизайне, UX, анимации и проектировании сложных систем: 
+          </p>
+
+        <p>То, что вы готовы лезть на стены ради освоения вёрстки, вызывает моё восхищение. 
+          Это говорит о высокой мотивации и любви к предмету. Чтобы освоить HTML и CSS, 
+          нужен такой план:<br>
+
+          <ol>
+            <li>Не изучать устаревшие материалы, забыть о существовании xHTML и 
+              ориентироваться только на современные стандарты HTML5 и CSS3. Понять, что 
+              в HTML5 теги бывают двух типов: парные и одиночные. Вёрстка состоит в 
+              основном из парных тегов и каждый тег имеет определённые доступные 
+              параметры и CSS-свойства по умолчанию. Бывают теги, которые отличаются 
+              только семантически: <b>div</b> очень похож на <b>h1</b>, у них просто разный 
+              набор свойств и нужно использовать их в разных ситуациях. 
+              Семантика — умение применять теги уместно.  
+          </ol>   
+
+          Хорошая очень компактная книжка, которую я когда-то читал — Джереми Кит - 
+          HTML5 для веб-дизайнеров.</li><br>
+
+          <ol start="2">
+            <li>Важных тегов, которыми надо уметь пользоваться, не так много: <b>script</b>, 
+              <b>link</b>, <b>section</b>+<b>header</b>+<b>footer</b>, <b>div</b>, <b>span</b>, 
+            <b>h1</b>+<b>h2</b>+<b>h3</b>, <b>ul</b>+<b>li</b>, <b>a</b>, <b>form</b>, 
+            <b>input</b>, <b>table</b>+<b>tr</b>+<b>td</b>. Все остальные можно подсмотреть на 
+              <a href="http://htmlbook.ru/html">htmlbook.ru/html</a> когда 
+              будет время и желание.</li><br>
+            <li>Понять, что CSS не надо писать руками. Научиться работать с 
+              CSS-препроцессорами. Это сэкономит тонну времени. Мне нравится 
+              <a href="https://habr.com/ru/post/136525/">LESS</a>, в 
+              моде сейчас <a href="https://habr.com/ru/post/140612/">SASS</a>.</li><br>
+            <li>Узнать наиболее употребимые CSS-свойства: float, display, opacity, 
+              width+height, position, background, border, border-radius. Заодно узнать, 
+              как использовать псевдоклассы: :hover, :focus.</li><br>
+            <li>Разобраться в теме Flexbox-вёрстки. Полезно и развязывает руки.</li><br>
+            <li>Поставить нормальную среду разработки, например 
+              <a href="https://code.visualstudio.com/">Visual Studio Code</a> 
+              (прекрасен+бесплатный) или 
+              <a href="https://www.jetbrains.com/webstorm/">WebStorm</a> (любят знакомые), 
+              настроить в нём 
+              <a href="https://marketplace.visualstudio.com/items?itemName=Framer.framer-syntax">
+              красивую цветовую схему</a> и моноширинный шрифт <b>Menlo</b> покрупнее. Поставить 
+              на него плагин <a href="https://emmet.io/">Emmet</a>, который позволит меньше 
+              печатать HTML-кода. Такой мощный тулбокс будет мотивировать 
+              больше практиковаться.</li><br>
+            <li>Понять, как реализовать адаптивность: узнать, как работают медиа-запросы. 
+              Научиться пользоваться сеткой <a href="https://getbootstrap.com/">Бутстрапа</a> 
+              или другого фреймворка по душе. 
+              Понять, как верстать адаптивный 12-колонник. Сэкономить на этом вторую тонну 
+              времени, потому что на одних только медиа-запросах адаптивность реализовать 
+              очень больно.</li><br>
+            <li>Познать контроль версий: завести Гитхаб, научиться выполнять простые 
+              операции: <b>git init</b>, <b>status</b>, <b>log</b>, <b>add</b>, <b>commit</b>, 
+              <b>remote</b>, <b>push</b>, <b>diff</b>. Все они есть в курсе по гиту на 
+              <a href="https://ru.hexlet.io/courses/git_base">Хекслете</a>. 
+              <a href="https://stepik.org/course/3145/promo">Степик</a> тоже заслуживает 
+              внимания.</li><br>
+            <li>Сразу пытаться применять изученное и ставить себе задачи, которые заставят 
+              задавать новые вопросы. Не терять наработки и вести конспекты в 
+              <a href="https://www.notion.so/">Notion</a>. 
+              Так вы никогда не растеряете то, чему научитесь.</li><br>
+          </ol>
+              
+          На этом уровне уже можно найти работу тысяч на 40. Идти сразу работать, 
+          а не тратить 5 лет на идиотский российский институт, как ваши одноклассники.<br>
+              
+          <ol start="10">
+            <li>Понять, что вёрстка — низшее звено веб-разработки и ваш путь только начался. 
+              Понять, что без знания JavaScript на вёрстке не заработать и пора учить его. 
+              Идти на сайт JavaScript.ru и становиться фронтенд-разработчиком.</li>
+          </ol>
+        </p>
+        
       </div>
     </section>
 
